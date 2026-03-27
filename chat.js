@@ -1,6 +1,6 @@
 const { GoogleGenAI } = require("@google/genai");
 const promptSync = require("prompt-sync")();
-const API_KEY = process.env.GEMINI_API_KEY || "AIzaSyBPPcVDXzPsuusLK4iFHt8JSOz1pRqx_oU";
+const API_KEY = process.env.GEMINI_API_KEY;
 
 // Initialize Google GenAI correctly
 const ai = new GoogleGenAI({ apiKey: API_KEY });
